@@ -1,14 +1,34 @@
 import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
+import styled from 'styled-components';
+
+const Bar = styled.nav`
+  
+  color: white;
+  background-color: red;
+  width: 100%;
+  height: 5em;
+  `
+
+const NavElement = styled.li`
+color: white;
+`
+
 class Navbar extends Component {
     state = {  }
     scrollToTop = () => {
         scroll.scrollToTop();
     };
     render() { 
-        return (<nav>
+        return (
+            <div>
+        <Bar>
+           
+            
+            
+        <nav>
             <ul>
-                <li><Link
+                <NavElement><Link
                     className='link'
                     activeClass="active"
                     to="homw"
@@ -17,7 +37,7 @@ class Navbar extends Component {
                     offset={-70}
                     duration={500}
                     onClick={this.scrollToTop}
-                >Home</Link></li>
+                >Home</Link></NavElement>
                 <li><Link
                     className='link'
                     activeClass="active"
@@ -46,7 +66,10 @@ class Navbar extends Component {
                     duration={500}
                 >Contact</Link></li>
             </ul>
-        </nav> );
+        </nav>
+        </Bar>
+        </div>
+        );
     }
 }
  

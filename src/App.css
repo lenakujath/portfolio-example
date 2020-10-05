@@ -14,8 +14,6 @@ body{
   text-align: center;
 }
 
-
-
 .App-header {
   position: relative;
   min-height: 100vh;
@@ -59,7 +57,7 @@ nav li{
 }
 nav li .link{
   text-decoration: none;
-  color: black;
+  color: white;
   padding:1em;
   opacity: 0.5;
   transition: all 0.3s ease-in-out;

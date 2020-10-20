@@ -13,8 +13,7 @@ function App() {
       <Navbar></Navbar>
       <div className="App-header">
       <Header></Header>
-      </div>
-      
+      </div>  
       <div className='About'>
         <About></About>
       </div>

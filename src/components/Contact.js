@@ -7,7 +7,7 @@ class Contact extends Component {
     render() { 
         return (  <div>
         <h1>
-                <Fade bottom cascade> Contact.</Fade>
+                <Fade bottom cascade> Contacto.</Fade>
         </h1>
         <Fade bottom>
         <div className='contact-content'>

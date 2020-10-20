@@ -5,7 +5,6 @@ import styled from 'styled-components';
 const Bar = styled.nav`
   
   color: white;
-  background-color: red;
   width: 100%;
   height: 5em;
   `
@@ -22,10 +21,7 @@ class Navbar extends Component {
     render() { 
         return (
             <div>
-        <Bar>
-           
-            
-            
+        <Bar>          
         <nav>
             <ul>
                 <NavElement><Link
@@ -37,7 +33,7 @@ class Navbar extends Component {
                     offset={-70}
                     duration={500}
                     onClick={this.scrollToTop}
-                >Home</Link></NavElement>
+                >Inicio</Link></NavElement>
                 <li><Link
                     className='link'
                     activeClass="active"
@@ -46,7 +42,7 @@ class Navbar extends Component {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                >About</Link></li>
+                >Sobre Mi</Link></li>
                 <li><Link
                     className='link'
                     activeClass="active"
@@ -55,7 +51,7 @@ class Navbar extends Component {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                >Work</Link></li>
+                >Trabajo</Link></li>
                 <li><Link
                     className='link'
                     activeClass="active"
@@ -64,7 +60,7 @@ class Navbar extends Component {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                >Contact</Link></li>
+                >Contacto</Link></li>
             </ul>
         </nav>
         </Bar>

@@ -14,9 +14,9 @@ export default
         contactEmail:'hello@ejemplo.com',
         // Add Your About Text Here
         abouttext: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        aboutImage:'https://images.unsplash.com/photo-1521587765099-8835e7201186?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
+        aboutImage:'https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/10647179_1463399037274464_16148231811924072_n.jpg?_nc_cat=107&_nc_sid=174925&_nc_ohc=c-NMJruLXC4AX-QpXFS&_nc_ht=scontent-mad1-1.xx&oh=53c0f6f374a4ca8e7cfeba76f4e1ac8d&oe=5FA4E1DD',
        //Change This To Hide The Image of About Section (True Or False)
-       ShowAboutImage:false,//true or false (Change Here)
+       ShowAboutImage:true,//true or false (Change Here)
        // Change Projects Here 
        projects:[
            {
@@ -24,7 +24,7 @@ export default
             title:'Ejemplo uno', //Project Title - Add Your Project Title Here
              service:'', // Add Your Service Type Here
             //Project Image - Add Your Project Image Here
-             imageSrc:"",
+             imageSrc:"https://cdn.pixabay.com/photo/2018/06/23/08/38/guitar-3492302_1280.jpg",
              //Project URL - Add Your Project Url Here
              url:''
             },
@@ -32,21 +32,21 @@ export default
                 id: 2,//DO NOT CHANGE THIS (Please)😅
                 title: 'Ejemplo Dos',
                 service: '',
-                imageSrc: "",
+                imageSrc: "https://cdn.pixabay.com/photo/2015/11/12/00/41/piano-1039450_1280.jpg",
                 url: ''
             },
             { 
                 id: 3,//DO NOT CHANGE THIS (Please)😅
                 title: 'Ejemplo Tres',
                 service: '',
-                imageSrc: "",
+                imageSrc: "https://cdn.pixabay.com/photo/2015/09/05/12/53/violin-924349_1280.jpg",
                 url: ''
             },
             {
                 id: 4,//DO NOT CHANGE THIS (Please)😅
                 title: 'Ejemplo quadro',
                 service: '',
-                imageSrc: "",
+                imageSrc: "https://cdn.pixabay.com/photo/2016/11/19/13/57/drum-set-1839383_1280.jpg",
                 url: ''
            }
 

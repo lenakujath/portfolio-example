@@ -1,6 +1,8 @@
-# React Portfolio Template
+# Personal webpage try-around 
 
-## Personal webpage for a music teacher to present himself built with React.
+## Example of music teacher to present work and contact information built using a template using React. (🛠️in progress)
+
+## Template by chetanverma16 
 
 
 

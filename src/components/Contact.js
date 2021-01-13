@@ -39,10 +39,11 @@ class Contact extends Component {
                 </div>
             </Fade>
                 <span className='footer'>
-                    Made With ❤ by 
-                    <a href="#">
-                        Lena Kujath
-                    </a>
+                    Made With ❤ by Lena Kujath
+                    
+                    {/* <a href="#"> */}
+                        
+                    {/* </a> */}
                 </span>
         </div>);
     }

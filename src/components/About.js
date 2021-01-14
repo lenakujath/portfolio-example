@@ -12,7 +12,10 @@ class About extends Component {
                     <Fade bottom cascade>
                         Sobre mi.
                     </Fade>
-                </h1>             
+                </h1>  
+                <p>
+                    {data.abouttext}
+                </p>           
             </div>
             {
                 data.ShowAboutImage 

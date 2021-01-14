@@ -4,10 +4,12 @@ import data from '../yourdata'
 
 
 class Header extends Component {
-    state = {}
+    // state = {}
 
     render() {
-        return (<div>
+        return (
+        
+    <div>
         <h1 className='heading-background'>
             Mùsica
         </h1>
@@ -33,7 +35,8 @@ class Header extends Component {
                         </button>
                 </p>
             </Fade>
-        </div>);
+        </div>
+        );
     }
 }
 

@@ -2,13 +2,6 @@ import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 import styled from 'styled-components';
 
-// const Bar = styled.nav
-// `
-//   color: white;
-//   width: 100%;
-//   height: 5em;
-//   `
-
 const NavElement = styled.li
 `
 color: black;
@@ -22,7 +15,6 @@ class Navbar extends Component {
     render() { 
         return (
             <div>
-                {/* <Bar>           */}
                     <nav>
                         <ul>
                             <NavElement>
@@ -80,7 +72,6 @@ class Navbar extends Component {
                             </li>
                         </ul>
                     </nav>
-                {/* </Bar> */}
             </div>
         );
     }

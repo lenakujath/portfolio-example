@@ -2,7 +2,7 @@
 Example of music teacher webpage to present work and contact information, 
 built with a template using React. 
 
-Template by 
+Template by:
  ## chetanverma16 
 
 ## Available Scripts

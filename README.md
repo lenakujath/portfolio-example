@@ -1,9 +1,9 @@
-# personal webpage try-around 
-
-## Example of music teacher webpage to present work and contact information (🛠️in progress)
+## personal webpage try-around (🛠️in progress)
+Example of music teacher webpage to present work and contact information, 
 built with a template using React. 
 
-## Template by chetanverma16 
+Template by 
+ ## chetanverma16 
 
 ## Available Scripts
 

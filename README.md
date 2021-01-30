@@ -3,7 +3,7 @@ Example of music teacher webpage to present work and contact information,
 built with a template using React. 
 
 Template by:
- ## chetanverma16 
+ ### chetanverma16 
 
 ## Available Scripts
 

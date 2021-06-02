@@ -28,7 +28,7 @@ class Navbar extends Component {
                                 duration={500}
                                 onClick={this.scrollToTop}
                                 >
-                                Inicio
+                                Start
                                 </Link>
                             </NavElement>
                             <li>
@@ -41,7 +41,7 @@ class Navbar extends Component {
                                 offset={-70}
                                 duration={500}
                                 >
-                                Sobre Mi
+                                About Me
                                 </Link>
                             </li>
                             <li>
@@ -54,7 +54,7 @@ class Navbar extends Component {
                                 offset={-70}
                                 duration={500}
                             >
-                                    Trabajo
+                                    Work
                                 </Link>
                             </li>
                             <li>
@@ -67,7 +67,7 @@ class Navbar extends Component {
                                 offset={-70}
                                 duration={500}
                             >
-                                    Contacto
+                                    Contact
                                 </Link>
                             </li>
                         </ul>

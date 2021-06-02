@@ -2,13 +2,13 @@ export default
     {
         //(Please Do Not Remove The comma(,) after every variable)
         //Change The Website Template
-        name :'juan carlos perez.',
+        name :'Lena Kujath.',
         headerTagline: [//Line 1 For Header
-                        'Hola 👋 Me encontraste! Soy Juan Carlos.',
+                        'Hi 👋 You found me! I am Lena.',
                         //Line 2 For Header
-                        'Profesor de Música ',
+                        'a Web Developer ',
                         //Line 3 For Header
-                        'de Cusco'
+                        'living in Barcelona'
     ],
         //Contact Email
         contactEmail:'hello@ejemplo.com',
